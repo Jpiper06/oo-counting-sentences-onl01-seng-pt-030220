@@ -11,8 +11,8 @@ class String
   end 
       
   def question?
-    is self.end_with?("?")
-    return true 
+    if self.end_with?("?")
+      return true 
   else 
     return false 
   end 
@@ -30,5 +30,4 @@ end
     return new_array.length 
   end 
 end 
-  end
-end
+  
